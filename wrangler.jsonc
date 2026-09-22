@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "web-precio-precioso",
+  "compatibility_date": "2026-09-22",
+
+  // El directorio de assets es public/, NO la raiz del repositorio.
+  // Asi .git, .wrangler y cualquier fichero de configuracion quedan fuera
+  // por construccion: no hay que acordarse de excluirlos.
+  "assets": {
+    "directory": "./public/"
+  },
+
+  "observability": { "enabled": true },
+
+  // Mientras no haya dominio propio, deja true para poder previsualizar.
+  // Cuando precioprecioso.com este funcionando, ponlo a false: cierra la
+  // URL publica *.workers.dev y deja una sola direccion oficial.
+  "workers_dev": true
+}

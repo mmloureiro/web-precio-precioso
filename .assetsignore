@@ -1,0 +1,5 @@
+# Cinturon y tirantes: aunque .git ya queda fuera de public/,
+# esto evita publicar basura del sistema si alguna vez se cuela.
+**/.DS_Store
+**/.git
+**/node_modules
