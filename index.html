@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precio Precioso — el precio real, con el envío incluido</title>
+<meta name="description" content="Precio Precioso vigila el precio total de un producto concreto en varias tiendas con envío a España y avisa cuando baja del límite que marcas.">
+<link rel="canonical" href="https://precioprecioso.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://precioprecioso.com/">
+<meta property="og:title" content="Precio Precioso — el precio real, con el envío incluido">
+<meta property="og:description" content="Vigila el precio total de un producto concreto en varias tiendas con envío a España y avisa cuando baja del límite que marcas.">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:   #eff1ee;
+    --ink:     #17222b;
+    --ink-soft:#4b5a63;
+    --rule:    #d3d9d4;
+    --line:    #17222b;
+    --signal:  #c2410c;
+    --measure: 62ch;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 4rem;
+  }
+
+  h1, h2, .brand, .lede {
+    font-family: Archivo, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .brand {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0 0 3.25rem;
+  }
+  .brand span { color: var(--ink-soft); font-weight: 500; }
+
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.1rem);
+    font-weight: 700;
+    line-height: 1.04;
+    letter-spacing: -0.028em;
+    margin: 0 0 1.25rem;
+    max-width: 17ch;
+  }
+
+  .lede {
+    font-size: clamp(1.0625rem, 2.4vw, 1.25rem);
+    font-weight: 500;
+    line-height: 1.45;
+    color: var(--ink-soft);
+    max-width: 44ch;
+    margin: 0 0 2.75rem;
+  }
+
+  figure { margin: 0 0 3.5rem; }
+  figure svg { width: 100%; height: auto; display: block; }
+  figcaption {
+    font-size: 0.9375rem;
+    color: var(--ink-soft);
+    margin-top: 0.85rem;
+    max-width: var(--measure);
+  }
+
+  h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    margin: 0 0 1.1rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  section { margin-bottom: 3rem; }
+
+  p { max-width: var(--measure); margin: 0 0 1.05rem; }
+
+  dl { margin: 0; max-width: var(--measure); }
+  dt {
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    margin-top: 1.4rem;
+  }
+  dt:first-of-type { margin-top: 0; }
+  dd { margin: 0.2rem 0 0; }
+
+  a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+  a:hover { color: var(--signal); }
+  a:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; border-radius: 2px; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.1rem;
+    font-size: 0.9375rem;
+    color: var(--ink-soft);
+  }
+  footer p { margin-bottom: 0.4rem; }
+
+  @media (max-width: 30rem) {
+    .wrap { padding-top: 2.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="brand">Precio Precioso <span>— seguimiento de precios</span></p>
+
+  <h1>Ningún precio es precioso hasta que le sumas el porte.</h1>
+
+  <p class="lede">Precio Precioso vigila lo que cuesta un producto concreto, envío incluido, en las tiendas que reparten en España. Y avisa cuando baja del límite que marcas.</p>
+
+  <figure>
+    <svg viewBox="0 0 640 210" role="img" aria-labelledby="graf-titulo">
+      <title id="graf-titulo">Evolución del precio total de un producto durante doce semanas: parte de 549 euros, oscila y termina en 449 euros, cruzando por debajo del umbral de aviso de 470 euros.</title>
+
+      <line x1="40" y1="124" x2="616" y2="124" stroke="#9aa6a0" stroke-width="1" stroke-dasharray="5 4"/>
+      <text x="40" y="117" font-family="Archivo, sans-serif" font-size="12" font-weight="600" fill="#4b5a63">tu límite: 470 €</text>
+
+      <polyline
+        points="40,50 91,47 142,60 193,54 244,68 295,70 346,65 397,78 448,91 499,87 550,106 600,143"
+        fill="none" stroke="#17222b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <circle cx="600" cy="143" r="6" fill="#c2410c"/>
+      <text x="588" y="171" text-anchor="end" font-family="Archivo, sans-serif" font-size="13" font-weight="700" fill="#c2410c">449 € · aviso</text>
+
+      <line x1="40" y1="190" x2="616" y2="190" stroke="#d3d9d4" stroke-width="1"/>
+      <text x="40" y="205" font-family="Archivo, sans-serif" font-size="12" fill="#4b5a63">hace 12 semanas</text>
+      <text x="616" y="205" text-anchor="end" font-family="Archivo, sans-serif" font-size="12" fill="#4b5a63">hoy</text>
+    </svg>
+    <figcaption>Un precio no baja el día que lo miras. Baja el jueves que estabas trabajando.</figcaption>
+  </figure>
+
+  <section>
+    <h2>Cómo funciona</h2>
+    <dl>
+      <dt>Eliges un producto, no una categoría</dt>
+      <dd>Marca y modelo concretos, identificados por su código EAN. Así, cuando dos tiendas aparecen juntas, es porque venden exactamente lo mismo.</dd>
+
+      <dt>Se suma el envío</dt>
+      <dd>Una lavadora a 380 € con 45 € de porte es más cara que otra a 400 € con envío gratis. Aquí se compara lo que pagas, no lo que anuncian. Cuando el coste de envío no se puede confirmar, se dice.</dd>
+
+      <dt>La vigilancia dura meses</dt>
+      <dd>Pones tu límite y te olvidas. Precio Precioso revisa cada día y escribe una sola vez: cuando el precio lo cruza de verdad.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>En qué punto está</h2>
+    <p>Precio Precioso está en desarrollo. Ahora mismo funciona sobre una categoría (lavadoras de carga frontal) y un grupo reducido de tiendas, mientras se comprueba con datos reales cuánta oferta hay y con qué exactitud se puede seguir.</p>
+    <p>Es un proyecto independiente, hecho por una persona, nacido de necesitar equipar una casa entera y no encontrar ninguna herramienta que vigilara el precio final durante meses.</p>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Si quieres seguir el desarrollo o proponer una tienda o una categoría, escribe a <a href="mailto:hola@precioprecioso.com">hola@precioprecioso.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>Precio Precioso puede incluir enlaces de afiliación. Si compras a través de ellos, la tienda paga una comisión sin coste adicional para ti, y eso no altera el orden en que se muestran los precios.</p>
+    <p><a href="/legal.html">Aviso legal y privacidad</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
